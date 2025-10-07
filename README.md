@@ -11,7 +11,7 @@ This table lists the essential information for every custom extension in my coll
 | File Name | Language | Purpose / Description |
 | :--- | :--- | :--- |
 | **JSONContentTypeConverter.py** | Python (Jython) | Context menu tool to convert JSON requests into XML, Form-Data, or URL-Encoded formats, including automatic header and body restructuring. |
-| **[My Next Extension Name]** | [Language] | [Brief description of its function] |
+| **raw_only_body_response.py** | Python (Jython) | Shows just the response body. No headers, no clutter. Ideal when you're only interested in the actual content. |
 
 ---
 
@@ -23,6 +23,11 @@ Use this section to track key updates, bug fixes, and development notes for each
 
 * **Initial Feature Set:** Added logic for dot-notation flattening and XML escape handling.
 
+###  raw_only_body_response.py
+
+* Adds a new tab labeled "Wrapped Body" to the message editor interface.
+* Appears only for HTTP responses, not requests.
+* Removes all response headers.
 
 ---
 
